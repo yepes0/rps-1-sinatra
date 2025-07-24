@@ -1,4 +1,4 @@
-# sinatra-rps
+# rps-1-sinatra
 
 Target: https://rps.matchthetarget.com/
 
