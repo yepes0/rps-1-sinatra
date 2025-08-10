@@ -9,18 +9,31 @@
         font-family: Arial; 
       }
     </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
   </head>
 
   <body>
-    <div>
-      <a href="/rock">Play Rock</a>
-    </div>
-    <div>
-      <a href="/paper">Play Paper</a>
-    </div>    
-    <div>
-      <a href="/scissors">Play Scissors</a>
-    </div>
+    <nav>
+          <ul>
+            <li>
+              <a href="/rock">
+                Play Rock
+              </a>
+            </li>
+
+            <li>
+              <a href="/paper">
+                Play Paper
+              </a>
+            </li>
+
+            <li>
+              <a href="/scissors">
+                Play Scissors
+              </a>
+            </li>
+          </ul>
+        </nav>
     <%= yield %>
 
   </body>
